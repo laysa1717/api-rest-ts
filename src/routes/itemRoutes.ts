@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { ItemController } from "../controllers/ItemController";
-import { ItemService } from "../services/Itemservice";
+import { ItemService } from "../services/ItemService";
 import { ItemRepository } from '../repositories/ItemRepository'; 
 
 const router = Router();
